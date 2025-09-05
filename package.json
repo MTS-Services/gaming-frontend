@@ -40,7 +40,10 @@
 		"lint": "prettier --check ."
 	},
 	"dependencies": {
+		"@tabler/icons": "^3.34.1",
+		"@tabler/icons-svelte": "^3.34.1",
 		"lucide-svelte": "^0.542.0",
-		"svelte-fa": "^4.0.4"
+		"svelte-fa": "^4.0.4",
+		"svelte-icons": "^2.1.0"
 	}
 }
