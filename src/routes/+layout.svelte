@@ -9,7 +9,7 @@
   <div class="absolute inset-0 z-0">
     <img src="/imgi_1_bg2.png" alt="Space background" class="w-full h-full object-cover" />
   </div>
-  <div class="relative z-10 min-h-screen flex flex-col">
+  <div class="relative z-10  flex flex-col">
     <div class="pt-5 px-4 md:px-8 lg:px-24">
       <Header />
     </div>

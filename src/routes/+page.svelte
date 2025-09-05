@@ -45,7 +45,7 @@
   <!-- ================================================================== -->
   <!-- ======================= LOWER SECTION ============================ -->
   <!-- ================================================================== -->
-  <div class="h-[90vh] lg:h-[63vh] ">
+  <div class="h-[90vh] lg:h-[63vh] sm:h-full w-full">
     
     <!-- Mobile Design (< 768px) -->
     <div class="flex md:hidden flex-col h-full">
@@ -63,21 +63,22 @@
       </div>
     </div>
     
+    
     <!-- Tablet Design (768px to 1024px) -->
-    <div class="hidden md:flex lg:hidden flex-col h-full">
-      <div class="grid grid-cols-4 gap-1 py-5">
-        <div class="flex flex-col items-center"><img class="w-full" src="/imgi_4_1.png" alt="Commanders"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">AVATAR<br/>COMMANDERS</p></div>
-        <div class="flex flex-col items-center"><img class="w-full" src="/imgi_5_2.png" alt="Alliances"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">PLAYER<br/>ALLIANCES</p></div>
-        <div class="flex flex-col items-center"><img class="w-full" src="/imgi_6_3.png" alt="Battles"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">PERSISTENT<br/>BATTLES</p></div>
-        <div class="flex flex-col items-center"><img class="w-full" src="/imgi_7_4.png" alt="Decisions"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">STRATEGIC<br/>DECISIONS</p></div>
-      </div>
-      <div class="flex-grow w-full flex items-end justify-center bg-[url(/imgi_8_7.png)] bg-cover bg-no-repeat ">
-        <div class="flex flex-col items-center justify-center w-full z-10 pb-32">
-          <img src="/imgi_16_5.png" alt="The Galaxy Awaits" class="w-3/2 pb-10"/>
-          <button class="bg-[url(/imgi_9_6.png)] w-1/2 mb-10 -mt-36 h-28 bg-contain bg-no-repeat bg-center hover:scale-110 active:scale-110 transition-transform" aria-label="Subscribe"></button>
-        </div>
-      </div>
+<div class="hidden md:flex lg:hidden flex-col h-full">
+  <div class="grid grid-cols-4 gap-1 py-5">
+    <div class="flex flex-col items-center"><img class="w-full" src="/imgi_4_1.png" alt="Commanders"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">AVATAR<br/>COMMANDERS</p></div>
+    <div class="flex flex-col items-center"><img class="w-full" src="/imgi_5_2.png" alt="Alliances"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">PLAYER<br/>ALLIANCES</p></div>
+    <div class="flex flex-col items-center"><img class="w-full" src="/imgi_6_3.png" alt="Battles"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">PERSISTENT<br/>BATTLES</p></div>
+    <div class="flex flex-col items-center"><img class="w-full" src="/imgi_7_4.png" alt="Decisions"/><p class="text-3d-gold text-center font-russo-one uppercase text-xl">STRATEGIC<br/>DECISIONS</p></div>
+  </div>
+  <div class="flex-grow w-full h-[900px] flex items-end justify-center bg-[url(/imgi_8_7.png)] bg-contain bg-no-repeat bg-bottom">
+    <div class="flex flex-col items-center justify-center w-full z-10 pb-32">
+      <img src="/imgi_16_5.png" alt="The Galaxy Awaits" class="w-3/2 pb-10"/>
+      <button class="bg-[url(/imgi_9_6.png)] w-1/2 mb-10 -mt-36 h-28 bg-contain bg-no-repeat bg-center hover:scale-110 active:scale-110 transition-transform" aria-label="Subscribe"></button>
     </div>
+  </div>
+</div>
     
     <!-- Laptop Design (1024px to 1536px) -->
     <div class="hidden lg:flex 2xl:hidden h-full items-end gap-6">
@@ -97,7 +98,7 @@
 
     <!-- 1920px DESKTOP DESIGN (1536px to 2560px) -->
     <div class="hidden 2xl:flex 3xl:hidden h-full items-end">
-      <div class="w-2/3 flex flex-col justify-end h-full ml-10 pt-8 pb-15 gap-y-8">
+      <div class="w-2/3 flex flex-col justify-end h-full ml-10 pt-8 pb-16 gap-y-8">
         <div class="grid grid-cols-4 gap-4">
             <div class="flex flex-col items-center"><img class="w-11/12" src="/imgi_4_1.png" alt="Commanders"/><p class="text-3d-gold text-center font-russo-one uppercase text-2xl">AVATAR<br/>COMMANDERS</p></div>
             <div class="flex flex-col items-center"><img class="w-11/12" src="/imgi_5_2.png" alt="Alliances"/><p class="text-3d-gold text-center font-russo-one uppercase text-2xl">PLAYER<br/>ALLIANCES</p></div>
@@ -111,7 +112,7 @@
           </div>
         </div>
       </div>
-      <div class="w-1/3 h-full bg-[url(/imgi_8_7.png)] bg-contain bg-no-repeat mt-20 bg-bottom"></div>
+      <div class="w-1/2 h-full bg-[url(/imgi_8_7.png)] bg-contain bg-no-repeat bg-right-bottom"></div>
     </div>
 
     <!-- 2560px+ DESKTOP DESIGN -->
